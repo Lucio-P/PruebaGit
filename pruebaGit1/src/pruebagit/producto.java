@@ -9,4 +9,5 @@ package pruebagit;
  * @author lucio
  */
 public class producto {
+    
 }
