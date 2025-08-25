@@ -11,9 +11,11 @@ package pruebagit;
 public class producto {
     
     private int codigo;
+    private double precio;
 
-    public producto(int codigo) {
+    public producto(int codigo, double precio) {
         this.codigo = codigo;
+        this.precio = precio;
     }
 
     public int getCodigo() {
@@ -23,6 +25,16 @@ public class producto {
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+    
+    
     
     
     
