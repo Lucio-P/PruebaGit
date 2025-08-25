@@ -18,6 +18,11 @@ public class PruebaGit1 {
         
         System.out.println("Hola Mundo");
         System.out.println("Usando Git");
+        
+        for (int i = 0; i < 10; i++) {
+            
+            System.out.println("" + i);
+        }
     }
     
 }

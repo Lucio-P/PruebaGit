@@ -10,4 +10,20 @@ package pruebagit;
  */
 public class producto {
     
+    private int codigo;
+
+    public producto(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+    
+    
+    
 }
